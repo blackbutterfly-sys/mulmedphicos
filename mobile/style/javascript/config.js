@@ -1,0 +1,181 @@
+﻿	var aliasConfig = {
+appName : ["", "", ""],
+totalPageCount : [],
+largePageWidth : [],
+largePageHeight : [],
+normalPath : [],
+largePath : [],
+thumbPath : [],
+
+ToolBarsSettings:[],
+TitleBar:[],
+appLogoIcon:["appLogoIcon"],
+appLogoLinkURL:["appLogoLinkURL"],
+bookTitle : [],
+bookDescription : [],
+ButtonsBar : [],
+ShareButton : [],
+ShareButtonVisible : ["socialShareButtonVisible"],
+ThumbnailsButton : [],
+ThumbnailsButtonVisible : ["enableThumbnail"],
+ZoomButton : [],
+ZoomButtonVisible : ["enableZoomIn"],
+FlashDisplaySettings : [],
+MainBgConfig : [],
+bgBeginColor : ["bgBeginColor"],
+bgEndColor : ["bgEndColor"],
+bgMRotation : ["bgMRotation"],
+backGroundImgURL : ["mainbgImgUrl","innerMainbgImgUrl"],
+pageBackgroundColor : ["pageBackgroundColor"],
+flipshortcutbutton : [],
+BookMargins : [],
+topMargin : [],
+bottomMargin : [],
+leftMargin : [],
+rightMargin : [],
+HTMLControlSettings : [],
+linkconfig : [],
+LinkDownColor : ["linkOverColor"],
+LinkAlpha : ["linkOverColorAlpha"],
+OpenWindow : ["linkOpenedWindow"],
+searchColor : [],
+searchAlpha : [],
+SearchButtonVisible : ["searchButtonVisible"],
+
+productName : [],
+homePage : [],
+enableAutoPlay : ["autoPlayAutoStart"],
+autoPlayDuration : ["autoPlayDuration"],
+autoPlayLoopCount : ["autoPlayLoopCount"],
+BookMarkButtonVisible : [],
+googleAnalyticsID : ["googleAnalyticsID"],
+OriginPageIndex : [],	
+HardPageEnable : ["isHardCover"],	
+UIBaseURL : [],	
+RightToLeft: ["isRightToLeft"],	
+
+LeftShadowWidth : ["leftPageShadowWidth"],	
+LeftShadowAlpha : ["pageShadowAlpha"],
+RightShadowWidth : ["rightPageShadowWidth"],
+RightShadowAlpha : ["pageShadowAlpha"],
+ShortcutButtonHeight : [],	
+ShortcutButtonWidth : [],
+AutoPlayButtonVisible : ["enableAutoPlay"],	
+DownloadButtonVisible : ["enableDownload"],	
+DownloadURL : ["downloadURL"],
+HomeButtonVisible :["homeButtonVisible"],
+HomeURL:['btnHomeURL'],
+BackgroundSoundURL:['bacgroundSoundURL'],
+//TableOfContentButtonVisible:["BookMarkButtonVisible"],
+PrintButtonVisible:["enablePrint"],
+toolbarColor:["mainColor","barColor"],
+loadingBackground:["mainColor","barColor"],
+BackgroundSoundButtonVisible:["enableFlipSound"],
+FlipSound:["enableFlipSound"],
+MiniStyle:["userSmallMode"],
+retainBookCenter:["moveFlipBookToCenter"],
+totalPagesCaption:["totalPageNumberCaptionStr"],
+pageNumberCaption:["pageIndexCaptionStrs"]
+};
+var aliasLanguage={
+frmPrintbtn:["frmPrintCaption"],
+frmPrintall : ["frmPrintPrintAll"],
+frmPrintcurrent : ["frmPrintPrintCurrentPage"],
+frmPrintRange : ["frmPrintPrintRange"],
+frmPrintexample : ["frmPrintExampleCaption"],
+btnLanguage:["btnSwicthLanguage"],
+btnTableOfContent:["btnBookMark"]
+}
+;
+	var bookConfig = {
+	appName:'flippdf',
+	totalPageCount : 0,
+	largePageWidth : 1080,
+	largePageHeight : 1440,
+	normalPath : "files/page/",
+	largePath : "files/large/",
+	thumbPath : "files/thumb/",
+	
+	ToolBarsSettings:"",
+	TitleBar:"",
+	appLogoLinkURL:"",
+	bookTitle:"FLIPBUILDER",
+	bookDescription:"",
+	ButtonsBar:"",
+	ShareButton:"",
+	
+	ThumbnailsButton:"",
+	ThumbnailsButtonVisible:"Show",
+	ZoomButton:"",
+	ZoomButtonVisible:"Yes",
+	FlashDisplaySettings:"",
+	MainBgConfig:"",
+	bgBeginColor:"#cccccc",
+	bgEndColor:"#eeeeee",
+	bgMRotation:45,
+	pageBackgroundColor:"#FFFFFF",
+	flipshortcutbutton:"Show",
+	BookMargins:"",
+	topMargin:10,
+	bottomMargin:10,
+	leftMargin:10,
+	rightMargin:10,
+	HTMLControlSettings:"",
+	linkconfig:"",
+	LinkDownColor:"#808080",
+	LinkAlpha:0.5,
+	OpenWindow:"_Blank",
+
+	BookMarkButtonVisible:'true',
+	productName : 'Demo created by Flip PDF',
+	homePage : 'http://www.flipbuilder.com/',
+	isFlipPdf : "true",
+	TableOfContentButtonVisible:"true",
+	searchTextJS:'javascript/search_config.js',
+	searchPositionJS:undefined
+};
+	
+	
+	;bookConfig.BookTemplateName="metro";bookConfig.loadingCaptionColor="#DDDDDD";bookConfig.loadingBackground="#323232";bookConfig.appLogoIcon="files/mobile-ext/appLogoIcon.png";bookConfig.appLogoOpenWindow="Blank";bookConfig.logoHeight="40";bookConfig.logoPadding="0";bookConfig.logoTop="0";bookConfig.toolbarColor="#000000";bookConfig.iconColor="#ECF5FB";bookConfig.pageNumColor="#000000";bookConfig.iconFontColor="#FFFFFF";bookConfig.toolbarAlwaysShow="No";bookConfig.InstructionsButtonVisible="Show";bookConfig.showInstructionOnStart="No";bookConfig.QRCode="Hide";bookConfig.HomeButtonVisible="Hide";bookConfig.HomeURL="%first page%";bookConfig.enablePageBack="Show";bookConfig.ShareButtonVisible="Show";bookConfig.EmailButtonVisible="Show";bookConfig.btnShareWithEmailBody="{link}";bookConfig.ThumbnailsButtonVisible="Show";bookConfig.thumbnailColor="#333333";bookConfig.thumbnailAlpha="70";bookConfig.BookMarkButtonVisible="Hide";bookConfig.TableOfContentButtonVisible="Show";bookConfig.bookmarkBackground="#000000";bookConfig.bookmarkFontColor="#cccccc";bookConfig.SearchButtonVisible="Show";bookConfig.leastSearchChar="3";bookConfig.searchFontColor="#FFFFFF";bookConfig.searchKeywordFontColor="#FFB000";bookConfig.searchHightlightColor="#ffff00";bookConfig.SelectTextButtonVisible="Show";bookConfig.PrintButtonVisible="Show";bookConfig.BackgroundSoundButtonVisible="Show";bookConfig.FlipSound="Yes";bookConfig.BackgroundSoundLoop="-1";bookConfig.AutoPlayButtonVisible="Show";bookConfig.autoPlayAutoStart="No";bookConfig.autoPlayDuration="9";bookConfig.autoPlayLoopCount="1";bookConfig.ZoomButtonVisible="Show";bookConfig.minZoomWidth="700";bookConfig.minZoomHeight="518";bookConfig.mouseWheelFlip="Yes";bookConfig.DownloadButtonVisible="Hide";bookConfig.PhoneButtonVisible="Hide";bookConfig.AnnotationButtonVisible="Hide";bookConfig.FullscreenButtonVisible="Show";bookConfig.bgBeginColor="#E2E2E2";bookConfig.bgEndColor="#E2E2E2";bookConfig.bgMRotation="90";bookConfig.backGroundImgURL="files/mobile-ext/backGroundImgURL.jpg";bookConfig.backgroundPosition="stretch";bookConfig.backgroundOpacity="100";bookConfig.LeftShadowWidth="90";bookConfig.LeftShadowAlpha="0.6";bookConfig.RightShadowWidth="55";bookConfig.RightShadowAlpha="0.6";bookConfig.ShowTopLeftShadow="Yes";bookConfig.HardPageEnable="No";bookConfig.hardCoverBorderWidth="8";bookConfig.borderColor="#572F0D";bookConfig.outerCoverBorder="Yes";bookConfig.cornerRound="8";bookConfig.leftMarginOnMobile="0";bookConfig.topMarginOnMobile="0";bookConfig.rightMarginOnMobile="0";bookConfig.bottomMarginOnMobile="0";bookConfig.pageBackgroundColor="#E8E8E8";bookConfig.flipshortcutbutton="Show";bookConfig.BindingType="side";bookConfig.RightToLeft="No";bookConfig.flippingTime="0.6";bookConfig.retainBookCenter="Yes";bookConfig.FlipStyle="Flip";bookConfig.autoDoublePage="No";bookConfig.isTheBookOpen="No";bookConfig.thicknessWidthType="Thinner";bookConfig.thicknessColor="#ffffff";bookConfig.showThicknessOnMobile="no";bookConfig.topMargin="10";bookConfig.bottomMargin="10";bookConfig.leftMargin="10";bookConfig.rightMargin="10";bookConfig.maxWidthToSmallMode="400";bookConfig.maxHeightToSmallMode="300";bookConfig.leftRightPnlShowOption="None";bookConfig.highDefinitionConversion="yes";bookConfig.LargeLogoPosition="top-left";bookConfig.LargeLogoTarget="Blank";bookConfig.isFixLogoSize="No";bookConfig.logoFixWidth="0";bookConfig.logoFixHeight="0";bookConfig.updateURLForPage="No";bookConfig.LinkDownColor="#800080";bookConfig.LinkAlpha="0.2";bookConfig.OpenWindow="Blank";bookConfig.showLinkHint="No";bookConfig.MidBgColor="#369579";bookConfig.searchFontColor="#FFFDDD";bookConfig.totalPageCount=89;bookConfig.largePageWidth=1800;bookConfig.largePageHeight=1273;;bookConfig.securityType="1";bookConfig.bookTitle="Company Profile";bookConfig.bookmarkCR="59e6ea86710596aee23fe8d26156bfbb0b8fbf30";bookConfig.productName="Flip PDF Professional";bookConfig.homePage="http://www.flipbuilder.com";bookConfig.searchPositionJS="mobile/javascript/text_position[1].js";bookConfig.searchTextJS="mobile/javascript/search_config.js";bookConfig.normalPath="files/mobile/";bookConfig.largePath="files/mobile/";bookConfig.thumbPath="files/thumb/";bookConfig.userListPath="files/extfiles/users.js";bookConfig.UIBaseURL='mobile/';var language = [];;function orgt(s){ return binl2hex(core_hx(str2binl(s), s.length * chrsz));};; var pageEditor = {"setting":{}, "pageAnnos":[[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.850909","y":"0.193002","width":"0.060635","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/logo-sipari"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.399865","y":"0.193002","width":"0.057486","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/logo-mpp"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.849741","y":"0.193002","width":"0.068854","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/tawab-soper"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.399865","y":"0.193002","width":"0.057145","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/pasti-tour"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.849742","y":"0.193002","width":"0.072676","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/logo-disnaker"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.398698","y":"0.193002","width":"0.065008","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/boyshofifest"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.849742","y":"0.193002","width":"0.060837","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/logo-siskig"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.398698","y":"0.193002","width":"0.064667","height":"-0.012277"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/eprsud-skhj"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061337","y":"0.853625","width":"0.112273","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/profil-jebres"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.056246","y":"0.853625","width":"0.158164","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/kamus-dwibahasa"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061071","y":"0.853625","width":"0.133390","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/profile-LPPKSPS"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.063471","y":"0.853623","width":"0.138386","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/KEMENPAREKRAF"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.062172","y":"0.853626","width":"0.131176","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/profil-satpolpp"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.075295","y":"0.853624","width":"0.105247","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/profil-BPBD"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.063471","y":"0.853624","width":"0.089129","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/bukuPPG"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.065094","y":"0.853625","width":"0.140070","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/profil-banjarsari"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.065094","y":"0.853624","width":"0.092987","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/LPTK-PPG"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.065094","y":"0.853623","width":"0.152185","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/profil-visitasi-ppg"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.065094","y":"0.853625","width":"0.138174","height":"-0.021032"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/Kajian-Aggaran"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.065094","y":"0.853623","width":"0.178802","height":"-0.021033"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/Laporan-Kinerja-BBPP"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.057292","y":"0.444371","width":"0.210061","height":"-0.039573"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://bit.ly/aoskdokaosdk"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061482","y":"0.450674","width":"0.117399","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/si-kaye"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.059791","y":"0.469399","width":"0.219713","height":"-0.038995"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/kupukupu-cantik"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.062682","y":"0.450674","width":"0.124274","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/sam-pu"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.062014","y":"0.501804","width":"0.144719","height":"-0.038889"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/musamus"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061482","y":"0.450674","width":"0.191883","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/rumah-kelapa"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060992","y":"0.470847","width":"0.164519","height":"-0.038889"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/orpyampan"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061578","y":"0.450357","width":"0.135598","height":"-0.038889"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/ulatsagu"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.062014","y":"0.501804","width":"0.190059","height":"-0.038889"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/sarang-semut"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060992","y":"0.470847","width":"0.188101","height":"-0.038889"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/RaloreOkhore"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060992","y":"0.470847","width":"0.182184","height":"-0.038889"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/HowangKeija"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060983","y":"0.470855","width":"0.187634","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/koeswaraibon"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060982","y":"0.470855","width":"0.167633","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/PaniyeiOyei"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060982","y":"0.470855","width":"0.144518","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/OnoiLucu"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060982","y":"0.470855","width":"0.254532","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/AnggengdeOnomire"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060982","y":"0.470855","width":"0.204119","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/NamaloHembo"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.060983","y":"0.470855","width":"0.242206","height":"-0.038890"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://s.id/AbhurenaAbhubhu"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.074880","y":"0.417234","width":"0.143411","height":"-0.024769"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3IcgrEN"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.076561","y":"0.455648","width":"0.146316","height":"-0.024769"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3wos3SJ"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.074351","y":"0.416484","width":"0.152679","height":"-0.024770"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3UJl2WN"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.078467","y":"0.416658","width":"0.144411","height":"-0.024763"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3PfgVyf"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.080210","y":"0.421629","width":"0.143484","height":"-0.024713"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/48nTqcI"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.079408","y":"0.438963","width":"0.139650","height":"-0.024761"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3I6ly9A"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.079408","y":"0.393767","width":"0.164651","height":"-0.024761"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3UM8OMR"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.080217","y":"0.421863","width":"0.151677","height":"-0.024761"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3uvNeBP"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.078486","y":"0.392781","width":"0.157332","height":"-0.024815"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/49NnMqp"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.077776","y":"0.421407","width":"0.152928","height":"-0.024905"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3SOkV9F"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.079409","y":"0.421124","width":"0.149927","height":"-0.023365"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/42Q8tLb"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.080219","y":"0.421863","width":"0.151195","height":"-0.024761"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3wwNa5i"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.078487","y":"0.392783","width":"0.149496","height":"-0.024815"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/4bTsKU7"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.079730","y":"0.467345","width":"0.157953","height":"-0.023346"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/49AARDS"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.076091","y":"0.450535","width":"0.169608","height":"-0.024748"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/animasiKPP"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.073512","y":"0.443468","width":"0.169608","height":"-0.024749"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/animasiKPP"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.077500","y":"0.424520","width":"0.251693","height":"-0.024749"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/animasi3dpitacukai2023"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.082324","y":"0.459583","width":"0.261534","height":"-0.024737"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/Animasi3DPitaCukai2024"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.096564","y":"0.501421","width":"0.211402","height":"-0.024736"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/kppkemenkes2023"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.089343","y":"0.444237","width":"0.223235","height":"-0.022616"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/KontenDisperakim2023"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.529164","y":"0.445645","width":"0.127456","height":"-0.024231"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/492FJRB"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.075426","y":"0.445454","width":"0.124508","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3SuackN"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.787322","y":"0.365826","width":"0.123867","height":"-0.021959"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3w2wVwt"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.295170","y":"0.361086","width":"0.119420","height":"-0.022039"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/42Bb0ZK"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.542858","y":"0.421852","width":"0.144811","height":"-0.020456"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/42s56d4"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.107794","y":"0.430324","width":"0.138897","height":"-0.019715"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/48YxF4q"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.307498","y":"0.368310","width":"0.149963","height":"-0.017478"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/VideoPro"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.733729","y":"0.458631","width":"0.195342","height":"-0.017478"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/VideoPro"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.542578","y":"0.506481","width":"0.141085","height":"-0.020456"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3OEYpyI"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061616","y":"0.814881","width":"0.111082","height":"-0.017478"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/BabyCafe"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.072279","y":"0.902124","width":"0.187368","height":"-0.017478"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/CompanyPro"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.553682","y":"0.901413","width":"0.194412","height":"-0.017477"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/KisahGuruPenggerakGarut"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.062858","y":"0.411591","width":"0.177426","height":"-0.017478"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/VlogWisataSpaModern"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.530235","y":"0.411591","width":"0.192723","height":"-0.017478"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/VlogWisataSpaTradisional"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.564194","y":"0.306420","width":"0.129363","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3OCTCxG"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.078412","y":"0.306420","width":"0.120888","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"http://bit.ly/4898bA1"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.697144","y":"0.530285","width":"0.124509","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3wfXBds"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061316","y":"0.408344","width":"0.124728","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/49xmuj1"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.697028","y":"0.530285","width":"0.124508","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3wfXBds"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.061200","y":"0.408344","width":"0.124727","height":"-0.023311"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/49xmuj1"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.559139","y":"0.896092","width":"0.177009","height":"-0.020456"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/Betah-Sekolah"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.077596","y":"0.896092","width":"0.173732","height":"-0.020456"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/PKK-Lampung"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.045090","y":"0.785022","width":"0.261520","height":"-0.015781"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://youtu.be/buvP3HEGotU"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.577709","y":"0.915487","width":"0.165059","height":"-0.020455"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/KSPSTK-2023"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.053535","y":"0.880070","width":"0.197694","height":"-0.020456"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/DPMPTSP-Boyolali"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.705093","y":"0.898250","width":"0.135208","height":"-0.018789"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/Riski-Sayur"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.705093","y":"0.725507","width":"0.148226","height":"-0.018789"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/Ikanpari-MPP"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.705093","y":"0.534133","width":"0.168110","height":"-0.018788"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/Nuanza-Porcelin"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.705093","y":"0.342121","width":"0.135208","height":"-0.018788"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/Riski-Sayur"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.252409","y":"0.898250","width":"0.140530","height":"-0.018789"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/UMKMButter"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.252409","y":"0.725507","width":"0.140530","height":"-0.018789"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/UMKMButter"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.252409","y":"0.534133","width":"0.140530","height":"-0.018788"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/UMKMButter"}},{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.252409","y":"0.342121","width":"0.158560","height":"-0.018788"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://s.id/Beras-Pangudi"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.094638","y":"0.688720","width":"0.182996","height":"-0.027176"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/TeknikStabilisasi"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.093839","y":"0.689092","width":"0.244242","height":"-0.027228"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/konsepbantuanhidupdasar"}}],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.094638","y":"0.688720","width":"0.222105","height":"-0.027175"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/alurpertolongankorban"}}],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.284930","y":"0.910680","width":"0.158780","height":"-0.022046"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"https://bit.ly/3SQeAKP"}}],[],[],[],[],[],[],[{"annotype":"com.mobiano.flipbook.pageeditor.TAnnoLink","location":{"x":"0.544492","y":"0.663005","width":"0.421389","height":"-0.042161"},"action":{"triggerEventType":"mouseDown","actionType":"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL","url":"mailto:phicosmultimedia@gmail.com"}}]]}; bookConfig.isFlipPdf=false;
+	bookConfig.hideMiniFullscreen=true;
+	if(language&&language.length>0&&language[0]&&language[0].language){
+		bookConfig.language=language[0].language;
+	}
+	
+try{
+	for(var i=0;pageEditor!=undefined&&i<pageEditor.length;i++){
+		if(pageEditor[i].length==0){
+			continue;
+		}
+		for(var j=0;j<pageEditor[i].length;j++){
+			var anno=pageEditor[i][j];
+			if(anno==undefined)continue;
+			if(anno.overAlpha==undefined){
+				anno.overAlpha=bookConfig.LinkAlpha;
+			}
+			if(anno.outAlpha==undefined){
+				anno.outAlpha=0;
+			}
+			if(anno.downAlpha==undefined){
+				anno.downAlpha=bookConfig.LinkAlpha;
+			}
+			if(anno.overColor==undefined){
+				anno.overColor=bookConfig.LinkDownColor;
+			}
+			if(anno.downColor==undefined){
+				anno.downColor=bookConfig.LinkDownColor;
+			}
+			if(anno.outColor==undefined){
+				anno.outColor=bookConfig.LinkDownColor;
+			}
+			if(anno.annotype=='com.mobiano.flipbook.pageeditor.TAnnoLink'){
+				anno.alpha=bookConfig.LinkAlpha;
+			}
+		}
+	}
+}catch(e){
+}
+try{
+	$.browser.device = 2;
+}catch(ee){
+}
